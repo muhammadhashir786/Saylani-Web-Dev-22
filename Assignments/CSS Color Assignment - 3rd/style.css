@@ -1,0 +1,18 @@
+#main-title {
+    color: blue;
+    background-color: #0096ff;
+}
+
+p {
+    background-color: rgba(0, 128, 0, 0.3);
+}
+
+.intro-paragraph{
+    color: rgb(146, 0, 230);
+    background-color: white;
+}
+
+#color-box {
+    color: orange;
+    background-color: yellow;
+}

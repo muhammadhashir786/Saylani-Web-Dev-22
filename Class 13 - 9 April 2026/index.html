@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <fieldset>
+      <legend>Your Details:</legend>
+      Name: <input type="text" placeholder="Enter your name" />
+      <br />
+      <br />
+      Email: <input type="email" placeholder="Enter your email" />
+    </fieldset>
+
+    <fieldset>
+      <legend>Your Review:</legend>
+
+      How did you hear about us?
+      <select name="" id="">
+        <option value="Google">Google</option>
+        <option value="Facebook">Facebook</option>
+        <option value="Youtube">Youtube</option>
+      </select>
+
+      <p>Would you visit again?</p>
+      <label for="yes">
+        <input type="radio" name="selectOption" id="yes" />
+        Yes
+      </label>
+      <label for="no">
+        <input type="radio" name="selectOption" id="no" />
+        No
+      </label>
+      <label for="maybe">
+        <input type="radio" name="selectOption" id="maybe" />
+        Maybe
+      </label>
+
+      <br />
+
+      <label for="comments">Comments:</label>
+      <textarea name="" id="comments"></textarea>
+
+      <br />
+
+      <input type="checkbox" checked /> Sign me up for email updates
+
+      <br />
+
+      <input type="submit" value="Submit Review" />
+    </fieldset>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+    ALT + SHIFT + F = Indentation file 
+
+    id:
+
+    uniquely identifies any element
+    id name starts with letter, underscore 
+    id name does not start with a number 
+
+    the id attribute is known as Global attribute 
